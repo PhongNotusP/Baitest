@@ -1,0 +1,128 @@
+.body {
+  display: inline;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 90%;
+  align-items: center;
+}
+.body__left {
+  width: 330px;
+  float: left;
+  margin-left: 50px;
+}
+.body__leftSearch {
+  padding: 5px;
+  height: 30px !important;
+}
+
+.body__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+
+  width: 100%;
+  border: 1px solid rgb(214, 199, 199);
+}
+.body__leftInput {
+  height: 15px;
+  padding: 10px;
+  border: none;
+  width: 80%;
+  outline: none;
+}
+.body__time {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+}
+.body_leftTitle {
+  color: rgb(68, 68, 168);
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.body__servicePlus {
+  display: flex;
+  color: orange;
+  text-decoration: none;
+  outline: none;
+}
+.body__serviceForm {
+  text-align: start;
+}
+.body__right {
+  text-align: center;
+}
+.body__rightMenu {
+  font-size: 14px;
+  line-height: 0%;
+  text-decoration: none;
+  transition: all linear 0.15s;
+  color: #919191;
+  text-decoration: none;
+  margin: 0px;
+  list-style: none;
+  width: 65%;
+  margin: 0px auto;
+  text-align: initial;
+  background: #ffffff;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 3px solid orange;
+}
+.body__rightItem {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+  padding: 10px 40px;
+  display: inline-block;
+  outline: none;
+  font-weight: 700;
+}
+.body__rightItem:hover {
+  color: orange;
+}
+
+.body__rightItem:hover::after {
+  content: " ";
+  color: orange;
+  display: block;
+  height: 6px;
+  background-color: rgba(230, 136, 34, 0.5);
+  margin: 0 auto;
+  margin-top: 37px;
+}
+
+.body__rightView {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.body__rightFil {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 30px;
+  transform: translate(50%, 0);
+}
+.body__rightSelect {
+  width: 50%;
+}
+
+.body__rightTitle {
+  padding-top: 15px;
+}
+.body__rightTitleSpan {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(18, 18, 161);
+}
+.body__rightTitleA {
+  font-weight: 700;
+  text-decoration: none;
+  color: orange;
+}

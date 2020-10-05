@@ -1,0 +1,73 @@
+.card {
+  display: inline-block;
+  padding-bottom: 1rem;
+  width: 23%;
+}
+.body__rightcard {
+  margin: 20px;
+  border: 1px solid rgb(226, 206, 206);
+  width: 350px;
+  height: 100%;
+}
+.body__cardImage {
+  width: 350px;
+  height: 250px;
+}
+.body__cardTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(54, 54, 107);
+  display: flex;
+  margin-left: 20px;
+}
+.body__cardAmount {
+  display: flex;
+  margin-left: 20px;
+  color: rgb(44, 44, 107);
+}
+.body__cardPrice1 {
+  color: rgb(48, 48, 136);
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  margin-left: 20px;
+}
+.body__cardPrice2 {
+  color: orange;
+  display: flex;
+  margin-left: 20px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.body__cardPrmotionCombo {
+  background-color: rgba(214, 142, 18, 0.3);
+  margin: 10px;
+
+  height: 30px;
+  border-radius: 10px;
+}
+.body__cardPromotion {
+  transform: translate(20%, -42px);
+}
+.body__rightCardplace {
+  position: relative;
+}
+
+.heart-checkbox {
+  position: absolute !important;
+  margin-top: 30px !important;
+  margin-left: -55px !important;
+  height: 30px !important;
+  width: 30px !important;
+  box-shadow: 0 0 50px rgba(139, 146, 2, 0.8) !important;
+}
+.heart-checkbox::before {
+  right: 15px !important;
+  height: 30px !important;
+  width: 30px !important;
+}
+.heart-checkbox::after {
+  bottom: 15px !important;
+  height: 30px !important;
+  width: 30px !important;
+}
