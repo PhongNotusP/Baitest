@@ -137,6 +137,12 @@ function BodyRight() {
                   <a href="#" className="body__rightTitleA">
                     &nbsp;Đà Nẵng
                   </a>
+                  <input
+                    className="body__rightTitleA"
+                    type="text"
+                    placeholder="Tìm kiếm"
+                    onChange={(e) => setSearch(e.target)}
+                  />
                 </span>
               </div>
               <CardDeck>

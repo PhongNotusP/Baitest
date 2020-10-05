@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import "./Card.css";
 import CardGiftcardIcon from "@material-ui/icons/CardGiftcard";
+import HeartCheckbox from "react-heart-checkbox";
 const CardService = ({ items }) => {
   console.log(items);
   // const [image, setImage] = useState([items.image]);
@@ -9,13 +10,16 @@ const CardService = ({ items }) => {
   // const [amount, setAmount] = useState([items.amount]);
   // const [name, setName] = useState([items.name]);
   // const [promotion, setPromotion] = useState([items.promotion]);
-
+  const [checked, setChecked] = useState(false);
+  const onClick = () => {
+    setChecked(!checked);
+  };
   return (
     <Card className="body__rightcard">
-      <Card.Img
-        variant="top"
-        /*src={image}*/ className="body__rightCardplace"
-      />
+      <div className="body__rightCardplace">
+        <Card.Img variant="top" /*src={image}*/ className="body__cardImage" />
+        <HeartCheckbox checked={checked} onClick={onClick} />
+      </div>
       <Card.Body>
         <Card.Title className="body__cardTitle">{}</Card.Title>
         <Card.Text className="body__cardAmount">
